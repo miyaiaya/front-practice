@@ -1,0 +1,86 @@
+body{
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.heading{
+  width: 100vw;
+  background-color: gray;
+  position: relative;
+}
+
+.heading-image{
+  width: 100%;
+}
+
+.title{
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+h1{
+  font-family: "Abril Fatface";
+  font-size: 120px;
+  color: white;
+}
+
+.nav{
+  width: 100vw;
+  height: 70px;
+  background-color: gray;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  width: 750px;
+  margin: 0 auto;
+  list-style: none;
+ }
+li{
+  float: left;
+  font-size: 30px;
+  color: #C0C0C0;
+  padding: 0 25px;
+  line-height: 70px;
+}
+li:hover{
+  color: black;
+}
+
+.middle{
+  width: 100vw;
+  margin-top: 10px;
+}
+.middle-left{
+width: 350px;
+float: left;
+}
+
+.introduction{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.introduction-image{
+  border-radius: 10px;
+  width: 200px;
+}
+
+.middle-right{
+  width: calc(100% - 355px);
+  height: 200px;
+  background: #159957;
+  background: -webkit-linear-gradient(to bottom, #155799, #159957);
+  background: linear-gradient(to bottom, #155799, #159957);
+  float: right;
+}
+
+
+
