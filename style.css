@@ -74,11 +74,12 @@ float: left;
 }
 
 .middle-right{
-  width: calc(100% - 350px);
-  height: 100vw;
-  background-color: red;
+  width: calc(100% - 355px);
+  height: 200px;
+  background: #159957;
+  background: -webkit-linear-gradient(to bottom, #155799, #159957);
+  background: linear-gradient(to bottom, #155799, #159957);
   float: right;
-
 }
 
 
